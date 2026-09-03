@@ -1,0 +1,10 @@
+# synthetic /proc/net/dev_mcast dump (comments + garbage must be skipped)
+2    eth0            2     1     01005e000001
+2    eth0            1     0     01005e000016
+# IPv6 all-nodes + solicited-node
+2    eth0            3     1     333300000001
+2    eth0            1     0     3333ffaabbcc
+3    wlan0           1     0     01005e0000fb
+
+garbage this is not a row
+4    br0             1     0     0180c200000e
